@@ -1,0 +1,40 @@
+.border {
+  border: 2px solid blue;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+#chatscreen {
+  height: 90vh;
+  width: 80vw;
+}
+#chatwindow {
+  height: 90%;
+  width: 79vw;
+  overflow-y: auto;
+}
+.bot {
+  font-size: 30px;
+  width: 99%;
+  border: 2px solid black;
+  margin: 5px;
+}
+.human {
+  font-size: 30px;
+  width: 99%;
+  border: 2px solid green;
+  margin: 5px;
+  text-align: right;
+}
+.inner {
+  width: 99%;
+  font-size: 25px;
+}
+#send {
+  width: 20%;
+}
